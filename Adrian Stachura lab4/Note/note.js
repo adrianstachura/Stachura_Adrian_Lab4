@@ -133,13 +133,19 @@ let notesob = {
 
     function showFromLocal(){
         let local = JSON.parse(localStorage.getItem('notatki'))
-        let i = 0
-        while(i<local.length)
-        {
-            displayNote(local[i].id,local[i].title,local[i].content,local[i].data,local[i].color,local[i].pin)
-            i++
+        if(local===null){
+            //nic
         }
-        id=local.length;
+        else{
+
+            let i = 0
+            while(i<local.length)
+            {
+                displayNote(local[i].id,local[i].title,local[i].content,local[i].data,local[i].color,local[i].pin)
+                i++
+            }
+            id=local.length;
+        }
     }
     
     
