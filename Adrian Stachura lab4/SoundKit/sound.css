@@ -1,0 +1,37 @@
+body{
+    background: #67aaf9;
+}
+
+#buttons{
+    margin-top: 50px;
+}
+#button{
+  
+    border-radius: 100%;
+    width: 50px;
+}
+
+
+#wrapper{
+    text-align:center;
+}
+
+
+
+#button,.btn{
+    height: 50px;
+    border-color: #b95f89;
+    background-color: transparent;
+    color:#c4e0f9;
+    transition-duration: 0.4s;
+    font-size: 25px;
+}
+
+#button:hover,.btn:hover{
+    
+    background-color:#b95f89;
+}
+
+h1{
+    color:#c4e0f9;
+}

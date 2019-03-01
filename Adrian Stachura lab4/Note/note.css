@@ -1,0 +1,109 @@
+
+
+body {
+	background-color: #67aaf9;
+	font-size: 100%;
+}
+
+form input#note_content {
+	width: 350px;
+}
+
+.note123 {
+	display: block;
+	list-style: none;
+	z-index: 1;
+	float: left; 
+	margin: 30px;
+	padding: 15px 15px 50px 15px;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #bfbfbf;
+	color: black;
+    
+
+} 
+
+
+.button-colors{
+    width: 10%;
+    height: 15px;
+}
+
+#c1{
+    background-color: cyan;
+    border-style: none;
+}
+#c2{
+    background-color: lightcoral;
+    border-style: none;
+}
+#c3{
+    background-color: yellow;
+    border-style: none;
+}
+#c4{
+    background-color: lightgreen;
+    border-style: none;
+}
+#c5{
+    background-color: pink;
+    border-style: none;
+}
+#c6{
+    background-color: white;
+    border-style: none;
+}
+#c7{
+    background-color: lightgray;
+    border-style: none;
+}
+
+#add{
+    background-color:pink;
+    color: white;
+    width: 148px;
+    height: 30px;
+}
+
+#remove{
+    background-color:red;
+    color: white;
+    width: 148px;
+    height: 30px;
+}
+
+#noteContent,#noteTitle{
+    text-align-last: center;
+}
+    
+    
+
+#noteadd{
+    width: 10%;
+    display: inline-block;
+}
+
+#column1{
+   width: 173px;
+    float: left;
+}
+
+#column2{
+    width: 200px;
+    float:left;
+    margin-left: 20px;
+    text-align: center;
+}
+
+p{
+    color:white;
+    font-size: 125%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.data{
+    font-size:11px
+}
+

@@ -1,0 +1,35 @@
+body{
+    background-color:#67aaf9;
+}
+
+
+#mainbody-wrapper{
+    padding-top:50px;
+    margin-left:30%;
+    margin-right: 30%;
+}
+
+#wrapper{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#button{
+    font-size: 20px;
+    border-color: #b95f89;
+    
+    background-color: transparent;
+    width: 300px;
+    height: 90px;
+    transition-duration: 0.4s;
+    border-width: 5px;
+    
+}
+
+#button:hover{
+    color:white;
+    background-color:#b95f89;
+}

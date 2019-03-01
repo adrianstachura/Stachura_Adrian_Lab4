@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="sound.css">
+    <title>Zadanie</title>
+</head>
+<body>
+        <body>
+    
+                <audio src="sounds/boom.wav" id="boom" ></audio>
+                <audio src="sounds/clap.wav" id="clap" ></audio>
+                <audio src="sounds/hihat.wav" id="hihat" ></audio>
+                <audio src="sounds/kick.wav" id="kick" ></audio>
+                <audio src="sounds/openhat.wav" id="openhat" ></audio>
+                <audio src="sounds/ride.wav" id="ride" ></audio>
+                <audio src="sounds/snare.wav" id="snare" ></audio>
+                <audio src="sounds/tom.wav" id="tom" ></audio>
+                <audio src="sounds/tink.wav" id="tink" ></audio>
+
+               
+                <div id="wrapper">
+                    <div id="buttons">
+                        <button id="button" onclick="playSound(boom)">A</button>
+                        <button id="button" onclick="playSound(clap)">S</button>
+                        <button id="button" onclick="playSound(hihat)">D</button>
+                        <button id="button" onclick="playSound(kick)">F</button>
+                        <button id="button" onclick="playSound(openhat)">G</button>
+                        <button id="button" onclick="playSound(ride)">H</button>
+                        <button id="button" onclick="playSound(snare)">J</button>
+                        <button id="button" onclick="playSound(tom)">K</button>
+                        <button id="button" onclick="playSound(tink)">L</button>
+                            
+                        </div>
+                        
+                    <div id="channels">
+                        <h1>Channel 1</h1>
+                        <div class="channel">
+                            <button class="btn" id = "play1">Play</button>
+                            <button class="btn" id = "record1">Start Recording</button>
+                            <button class="btn" id = "stop1">Stop Recording</button>
+                            <button class="btn" id = "clear1">Clear Channel</button>
+                        </div>
+                           
+                        <h1>Channel 2</h1>
+                        <div class="channel">
+                            <button class="btn" id = "play2">Play</button>
+                            <button class="btn" id = "record2">Start Recording</button>
+                            <button class="btn" id = "stop2">Stop Recording</button>
+                            <button class="btn" id = "clear2">Clear Channel</button>
+                        </div>
+                          
+                        <h1>Channel 3</h1>
+                        <div class="channel">
+                            <button class="btn" id = "play3">Play</button>
+                            <button class="btn" id = "record3">Start Recording</button>
+                            <button class="btn" id = "stop3">Stop Recording</button>
+                            <button class="btn" id = "clear3">Clear Channel</button>
+                        </div>
+                        <h1>Channel 4</h1>
+                        <div class="channel">
+                            <button class="btn" id = "play4">Play</button>
+                            <button class="btn" id = "record4">Start Recording</button>
+                            <button class="btn" id = "stop4">Stop Recording</button>
+                            <button class="btn" id = "clear4">Clear Channel</button>
+                        </div>
+                        <h1>All Channels</h1>
+                        
+                        <div class="channel">
+                            <button class="btn" id = "playAll">Play All</button>
+                            <button class="btn" id = "clearAll">Clear All</button>
+                   
+                        </div>
+                        
+                    </div>
+                </div>
+          
+    
+    <script type="text/javascript" src="sound.js"></script>
+    </body>
+</html> 

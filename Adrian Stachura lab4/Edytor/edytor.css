@@ -1,0 +1,51 @@
+body{
+    background-color:#3C3D3E;
+}
+
+#wrapper{
+    text-align: center;
+}
+
+.button{
+    width: 18%;
+    background-color: transparent;
+    color: white;
+    border-color: black;
+}
+
+#kolory{
+    margin-top: 20px;
+}
+.button-colors{
+    width: 10%;
+    height: 15px;
+}
+
+#c1{
+    background-color: red;
+    border-style: none;
+}
+#c2{
+    background-color: blue;
+    border-style: none;
+}
+#c3{
+    background-color: yellow;
+    border-style: none;
+}
+#c4{
+    background-color: green;
+    border-style: none;
+}
+#c5{
+    background-color: pink;
+    border-style: none;
+}
+#c6{
+    background-color: white;
+    border-style: none;
+}
+#c7{
+    background-color: black;
+    border-style: none;
+}
