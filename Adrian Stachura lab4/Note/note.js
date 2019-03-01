@@ -62,6 +62,7 @@ let notesob = {
         //div z trescia notatki
         let content = document.createElement("div");
         content.innerHTML = noteContent;
+        content.className="noteContent"
 
         //div z data utworzenia
         let noteDate = document.createElement("div")

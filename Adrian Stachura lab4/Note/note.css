@@ -5,9 +5,7 @@ body {
 	font-size: 100%;
 }
 
-form input#note_content {
-	width: 350px;
-}
+
 
 .note123 {
 	display: block;
@@ -71,12 +69,7 @@ form input#note_content {
     color: white;
     width: 148px;
     height: 30px;
-}
-
-#noteContent,#noteTitle{
-    text-align-last: center;
-}
-    
+} 
     
 
 #noteadd{
@@ -105,5 +98,12 @@ p{
 
 .data{
     font-size:11px
+}
+
+.noteContent{
+    font-size: 15px;
+    word-wrap: break-word;
+    overflow: auto;
+    height: 180px;
 }
 
